@@ -1,0 +1,191 @@
+@media screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  section > .container {
+    max-width: 100%;
+    padding: 0 3%;
+    /* margin: 0 auto; */
+  }
+
+  #nav-bar .container {
+    max-width: 100%;
+    padding: 0 3%;
+  }
+
+  #about,
+  #job-info,
+  #certificate,
+  #project {
+    margin-bottom: 65px;
+  }
+
+  /* Header */
+  header {
+    height: 30vh;
+  }
+
+  #banner {
+    font-size: 36px;
+    gap: 10px;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  #banner span {
+    margin-top: 0px;
+  }
+
+  /* Navbar */
+  #nav-bar .container img,
+  .hidden-element {
+    display: none;
+  }
+
+  #nav-bar .container {
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+  }
+
+  .nav-bar-background {
+    border: none;
+    border-left: 1px solid #adb5bd;
+  }
+
+  #nav-bar .container .nav-bar-background:nth-child(4) {
+    border-right: 1px solid #adb5bd;
+  }
+
+  .nav-bar-icon {
+    font-size: 13px;
+    gap: 10px;
+  }
+
+  /* About */
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  #about.bg-grey {
+    font-size: 0.85rem;
+  }
+  .about {
+    width: 75%;
+
+    margin-top: 0px;
+    padding: 10px 0;
+  }
+
+  #target {
+    right: 20px;
+  }
+
+  #personal-info {
+    margin-left: 24px;
+  }
+
+  /* Job-info */
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .job-info-ele {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .job-info-ele-hobby {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    letter-spacing: -1px;
+  }
+
+  .job-hobby-icon {
+    width: 80%;
+    padding: 5px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    padding-left: 10px;
+  }
+
+  /* Certificate */
+
+  #cer-content {
+    width: 100%;
+    padding: 20px;
+    gap: 35px;
+  }
+
+  #cer-title {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .cer-content-child {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cer-main {
+    text-align: center;
+  }
+
+  /* Project */
+  #project {
+    font-size: 14px;
+  }
+
+  .project-content-ele img {
+    width: 100%;
+  }
+
+  .project-info {
+    font-size: 10px;
+    gap: 5px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .project-info-year,
+  .project-info-funix,
+  .project-info-dev {
+    display: block;
+    text-align: center;
+
+    gap: 0px;
+  }
+
+  .project-content-ele table {
+    width: 100%;
+  }
+
+  .project-content-ele table th,
+  .project-content-ele table td {
+    padding: 5px 5px;
+  }
+
+  /* Footer */
+  #footer {
+    margin-top: 50px;
+  }
+
+  #footer-content {
+    font-size: 80%px;
+    gap: 8%;
+  }
+
+  .footer-ele {
+    gap: 5%;
+  }
+  .logo-footer {
+    width: 20px;
+  }
+}
