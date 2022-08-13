@@ -1,7 +1,5 @@
 @media screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
+
 
   section > .container {
     max-width: 100%;
